@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test </title>
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+	<main class="main">
+		<form class="search" name="search">
+			<label class="search__label">
+				<input type="text" class="search__input" name="input" placeholder="Write movie name">
+				<button type="button" class="clear hide" name="clear"><i class="uil uil-times"></i></button>
+			</label>
+			<button type="button" class="btn search__btn" name="btn">search</button>
+		</form>
+		<div class="result">
+		</div>
+		<div class="shadow hide">
+			<div class="modal">
+				<div class="modal__block">
+					<img src="" alt="" class="modal__poster">
+					<div class="modal__info">
+						<h2 class="modal__name"></h2>
+						<p class="modal__details"></p>
+						<div class="modal__text">
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">Written by: </span>
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">Directed by: </span>
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">Starring: </span>
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">BoxOffice: </span>
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">Avards: </span>
+							<p class="modal__p"></p>
+						</div>
+						<div class="modal__text">
+							<span class="modal__span">Ratings: </span>
+							<p class="modal__p"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="./main.js"></script>
+</body>
+</html>
